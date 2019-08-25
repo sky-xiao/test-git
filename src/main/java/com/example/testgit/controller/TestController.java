@@ -19,4 +19,13 @@ public class TestController {
     public  String test() {
         return "Hello world";
     }
+
+    /**
+     * 测试方法2
+     * @return String
+     */
+    @GetMapping(value = "/test2")
+    public  String test2() {
+        return "Hello world Two";
+    }
 }
